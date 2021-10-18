@@ -1,6 +1,7 @@
-Algoritmo "duração"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+Algoritmo "duraÃ§Ã£o"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
+// Aluno  : Ilizeli Marques
 
 
 
@@ -13,7 +14,7 @@ Var
 Inicio
 
 
-       escreva("Digite a duração em segundos: ")
+       escreva("Digite a duraÃ§Ã£o em segundos: ")
        leia(duracao)
        
        horas <- duracao \ 3600
