@@ -1,0 +1,26 @@
+Algoritmo "circulo2"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Aluno  : Ilizeli Marques
+
+
+
+Var
+
+    raio, area: real
+    
+
+Inicio
+
+
+       escreva("Digite o valor do raio do circulo: ")
+       leia(raio)
+       
+       
+       area <- Pi * (exp (raio, 2.0))
+       
+       escreva("Área = ", area:8:3)
+
+    
+
+Fimalgoritmo
