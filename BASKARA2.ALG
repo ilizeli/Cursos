@@ -1,0 +1,45 @@
+Algoritmo "baskara2"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Aluno : Ilizeli Marques
+
+
+
+Var
+
+   a, b, c, x1, x2,delta : real
+   
+
+Inicio
+
+     escreva("Coeficiente A: ")
+     leia(a)
+     
+     escreva("Coeficiente B: ")
+     leia(b)
+     
+     escreva("Coeficiente C: ")
+     leia(C)
+     
+     delta <- exp (b, 2) - 4*a*c
+     
+     se (a= 0) ou (delta < 0) entao
+     
+        escreval("Esta equação não possui raizes reais")
+     senao
+     
+     x1<- (-b + raizq (delta))/ 2.0 * a
+     
+     x2 <- (-b - raizq (delta))/ 2.0 *a
+
+     escreval("X1 = ", x1:6:4)
+     escreval ("X2 = ", x2:6:4)
+
+
+     fimse
+
+
+
+
+
+Fimalgoritmo
